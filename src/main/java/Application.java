@@ -7,11 +7,10 @@ public class Application {
      * The Lab.copy method should return the same value that was passed to it. This value will be printed here.
      */
     public static void main(String[] args) {
-        System.out.println("The Lab.copy method should return the same value that was passed to it.This value will be printed here.");
+        System.out.println("The Lab.copy method should return the same value that was passed to it.This value will be printed here".codePointAt(0));
         Lab parrot = new Lab();
 
-        System.out.println("Here's what Lab.copy returns when provided the value will  be printed here.);
-        String val1 = "repeat after me";
+        System.out.println("Here's what Lab.copy method should return the same value that was passed to it. This value will be printed here. 
         String output1 = parrot.copy(val1);
         System.out.println(output1);
 
